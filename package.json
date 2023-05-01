@@ -1,0 +1,34 @@
+{
+  "name": "uniswap-implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrishiqode/uniswap-implementation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrishiqode/uniswap-implementation/issues"
+  },
+  "homepage": "https://github.com/hrishiqode/uniswap-implementation#readme",
+  "dependencies": {
+    "@uniswap/v3-core": "^1.0.1",
+    "@uniswap/v3-periphery": "^1.4.3",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "hardhat": "^2.14.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@typechain/hardhat": "^6.1.5",
+    "hardhat-gas-reporter": "^1.0.9",
+    "typechain": "^8.1.1"
+  }
+}
